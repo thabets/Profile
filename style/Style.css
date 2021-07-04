@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+body{
+    background-color: #343434;
+}  
+/*Header section*/
+header {
+    display: block;
+    background-color: #252525;
+    padding: 20px 35px;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    
+}
+header h1 {
+    text-align: left;
+    padding: 20px 0px;
+    color: #0CB4CE;
+    font-size: 36px;
+    display: inline;
+    margin: 0;
+    
+}
+header nav {
+float: right;
+margin: 7px 0;
+
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+header a{
+color:#0CB4CE;
+display: inline;
+text-decoration: none;
+}
+header a:hover{
+color: #11dcfc;
+}
+
+/*Hero Section*/
+
+.hero{
+    background-image: url(../style/Images/israel-sundseth-BYu8ITUWMfc-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+.hero h2 {
+color: bisque;
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+color: #0CB4CE;
+
+}
+.hero h2:hover{
+    font-size: xx-large;
+    transition:  1s ease-in-out;
+    
+    
+}
+.hero button {
+    color: transparent;
+    background-color: transparent;
+    box-shadow: transparent;
+    width: 150px;
+    position: relative;
+    top: 45%;
+    left: 45%;
+}
+
+/*About Me Section*/
+
+.content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    height: 100vh;
+    margin: 0 auto;
+}
+.content h2{
+    font-weight: lighter;
+    color: #0CB4CE ;
+    
+    line-height: 1.1;
+    display: inline-block;
+    padding: 40px 0 10px 0;
+    font-size: 30px;
+    padding-top: 5%;
+}
+.content h3{
+    font-weight: lighter;
+    padding: 40px 0 20px 20px;
+}
+.content img {
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    
+    padding-right: 5%;
+}
+.content p{
+    color: #6e6e6e;
+    padding-right: 10%;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    }
+
+
+/*bullet points section*/
+
+.content #info{
+    padding: 20px 40px 20px 40px;
+    line-height: 2;
+    background-color: #0CB4CE;
+    width: 100%;
+    font-size: 18px;
+}
+.content #info li {
+    list-style-type: none;
+}
+
+/* Skills Section */
+.Skills{
+    font-family: sans-serif;
+    height: 100vh;
+    display: block;
+    padding-left: 5%;
+    
+}
+
+.Skills h2{
+    color: #0CB4CE;
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 40px 0 10px 0;
+    padding-top: 5%;
+}
+.Skills h3{
+    color: white;
+    font-weight: lighter;
+    padding: 40px 0 20px 20px;
+    font-size: 25px;
+    float: left;
+    width: 100%;
+   
+}
+.Skills li{
+    list-style-type: none;
+    color: white;
+    padding: 20px 0 20px 20px;
+    text-align: left;
+}
+
+/* Experience Section */
+
+.Experience {
+    font-family: sans-serif;
+    height: 100vh;
+    display: block;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.Experience h2{
+color: #0CB4CE;
+font-size: 30px;
+font-weight: lighter;
+padding: 40px 0 10px 0;
+}
+.Experience h3{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #343434;
+}
+/*this section hover needs to be modified as a button box section. Look in flex box options*/
+.Experience article :hover{
+    block-size: 30%;
+    transition:  1s ease-in-out;
+    display: flex;
+    font-size: 18px;
+}
+
+.Experience p{
+  
+        padding: 20px 30px 10px 30px;
+        display: flex;    
+        color: #343434;
+}
+/*TTEC experience style */
+.TTEC{
+    background-color: #0CB4CE;
+    width: 90%;
+    margin: 30px auto 30px 0;
+    color: white;
+    overflow: auto;
+
+}
+.TTEC img{
+    float: left;
+    width: 20%;
+}
+.TTEC h3:hover{
+    font-size: 33px;
+}
+
+/* HSA Experience styling */
+.HSA{
+    background-color: #0CB4CE;
+    width: 90%;
+    margin: 0 auto 30px 0;
+    color: white;
+    overflow: auto;
+}
+.HSA img{
+    float: right;
+    width: 20%;
+}
+.HSA h3:hover{
+    
+    font-size: 33px;
+}
+/*ITen Associates Styling */
+.ITen{
+    background-color: #0CB4CE;
+    width: 90%;
+    margin: 0 auto 30px 0;
+    color: white;
+    overflow: auto;
+}
+.ITen img{
+    float: left;
+    width: 20%;
+}
+.ITen h3:hover{
+    
+    font-size: 33px;
+}
