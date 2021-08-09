@@ -150,6 +150,9 @@ header a:hover {
   float: left;
   width: 100%;
 }
+.info1 {
+  color: white;
+}
 /*Skills progress bars within skills section*/
 
 .Skills #Skills .coding {
